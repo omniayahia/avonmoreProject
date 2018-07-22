@@ -1,0 +1,64 @@
+.cartpage{
+  .bodyCart{
+    @extend %inherit-section;
+    .control-table{
+      overflow-x: auto;
+    }
+    thead{
+      background-color: $light-gray;
+      font-size: $paragraph;
+      font-weight: $RalewayBold;
+      color: $black-color;
+    }
+
+    tbody{
+      font-family: $LatoRegular;
+
+      a{
+        font-size: $largeParg;
+        font-family: $RalewayBold;
+        color: $black-color;
+      }
+
+      p{
+        font-size: $paragraph;
+        color: $gray-color;
+      }
+      tr{
+        border-bottom: 1px solid $gray;
+        th{
+          vertical-align: middle;
+        }
+       td{
+         vertical-align: middle;
+         input[type="number"]{
+           width: 50px;
+           font-size: $paragraph;
+           color: $gray-color;
+
+         }
+
+       }
+      }
+
+      .gwv{
+        color: $gray-color;
+        font-size: $paragraph;
+      }
+      .priceVal{
+        color: $black-color;
+        font-size: $tableParg;
+      }
+      .sub{
+        color: $black-color;
+        font-size: $tableParg;
+        font-family: $LatoBold;
+      }
+      .icon{
+        color: $gray-color;
+        font-size: $tableParg;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: KaushanScriptFont;
+    src: url('../fonts/KaushanScript-Regular.ttf');
+}
+@font-face {
+    font-family:RalewayBold;
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family:LatoRegular;
+    src: url('../fonts/Lato-Regular.otf');
+}
+
+@font-face {
+    font-family:LatoItalic ;
+    src: url('../fonts/Lato-Italic.ttf');
+}
+
+@font-face {
+    font-family:LatoLight ;
+    src: url('../fonts/Lato-Light.ttf');
+}
+
+
+
+@font-face {
+    font-family:LatoBold ;
+    src: url('../fonts/Lato-Bold.ttf');
+}
+
+$RalewayBold : RalewayBold;
+$KaushanScriptFont : KaushanScriptFont;
+$LatoRegular : LatoRegular ;
+$LatoItalic: LatoItalic ;
+$LatoBold:LatoBold;
+$LatoLight:LatoLight;
+$btnfont: 14px;
+$paragraph:0.46rem;
+$smallPar:0.4rem;
+$largeParg:0.6rem;
+$xlparg:0.66666rem;
+$tableParg:16px;
+$h2font:1rem;
+$h6font:0.55rem;
+
+$font16:16px;
+
+
+html{
+  font-size: 30px;
+}
+
+@media (max-width: 992px) { 
+    html{
+        font-size: 32px;
+      }
+ }
+

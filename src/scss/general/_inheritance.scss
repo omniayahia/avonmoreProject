@@ -1,0 +1,391 @@
+ %inherit-section{
+  padding-top:60px ;
+  padding-bottom: 60px;
+  h2{
+    font-family: $RalewayBold;
+    font-size: $h2font;
+    color: $black-color;
+  }
+
+  h6{
+  font-family:$KaushanScriptFont;
+  font-size:$h6font;
+  color: $black-color;
+  }
+
+p , blockquote{
+    font-size:$paragraph;
+    font-family:$LatoRegular ;
+    color: $gray-color;
+    
+  }
+
+}
+
+
+
+%inherit-card
+{
+
+  p{
+    font-size: $paragraph;
+    font-family:$LatoRegular ;
+    color:$gray-color ;
+
+   }
+  h5{
+    font-size:$largeParg ;
+    font-family:$RalewayBold ;
+    color: $black-color;
+  }
+
+
+  a{
+    font-size: 10px;
+    font-family: $RalewayBold;
+    color: $black-color;
+  }
+}
+
+%bg-img
+{
+  background-position: right ;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+%page-bg{
+  height: 340px;
+  background-attachment: fixed;
+}
+
+
+
+
+
+%same-style{
+  height: 100%;
+   .row{
+     height: 100%;
+     h4{
+       font-family: $KaushanScriptFont;
+       font-size: $largeParg;
+       margin-bottom: 0px;
+       color: $gray-color;
+     }
+     p{
+       font-family: $RalewayBold;
+       font-size: 1.8rem;
+     }
+   }
+}
+
+
+
+
+.blackHr{
+  width:36px;
+  height: 1px;
+  background-color: $black-color;
+}
+
+.coloredkHr{
+  width:36px;
+  height: 1px;
+  background-color: $main-color ;
+}
+
+
+
+
+%model{
+  .modal-body{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .modal-dialog{
+    width: auto;
+    height: auto;
+  }
+  .modal-dialog .modal-content img{
+    width: auto;
+  }
+
+}
+
+
+%prev-next-inherit{
+  .page-item a {
+    color: $black-color;
+    transition: all 0.3s linear;
+
+  }
+  .page-item:hover a {
+    background-color: $main-color;
+  }
+    .hoverbg{
+      border: 1px solid $light-gray;
+      border-radius: 0px;
+      color: $black-color;
+      text-decoration: none;
+      transition: all 0.3s linear;
+
+    }
+    .hoverbg:hover{
+      background-color: $main-color;
+      cursor: pointer;
+      border: 1px solid $main-color;
+      .prev{
+        display: inline-block;
+      }
+      .next{
+        display: inline-block;
+      }
+    }
+    .prev {
+      padding-left: 10px;
+      display: none;
+    }
+    .next{
+      padding-right: 10px;
+        display: none;
+
+  }
+}
+
+
+
+%inhiret-rightcol-search{
+  .placeholder-icon{
+    position: relative;
+    input{
+      font-size: $paragraph;
+      font-family: $LatoRegular;
+      height: 45px;
+      border-radius: 0px;
+    }
+    .icon{
+      position: absolute;
+      top:-5px;
+      right: 12px;
+      i{
+        font-size: 14px;
+        color: $black-color;
+      }
+    }
+  }
+}
+
+
+
+
+
+%inherit-list{
+  .list-group-item:first-child , .list-group-item:last-child{
+    border-radius: 0px;
+  }
+  .list-group-item{
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    font-family: $LatoRegular;
+    font-size: $paragraph;
+      color: $gray-color;
+  }
+  li{
+    border: 0px;
+    border-bottom: 1px solid $gray;
+    font-size: 12px;
+    a{
+      color: $gray-color;
+    }
+  }
+}
+
+
+
+
+  %text-rightcol{
+    h5{
+      font-size:$largeParg ;
+      font-family:$RalewayBold ;
+      color:$black-color ;
+    }
+    p{
+        font-size: $paragraph;
+        font-family: $LatoRegular;
+        color: $gray-color;
+      }
+  }
+
+
+%rightcol-news{
+  .latest-news{
+    h4{
+      font-size: $paragraph;
+      font-family: $RalewayBold;
+      line-height: 2;
+      padding-top: 10px;
+    }
+    a{
+      color: $black-color;
+    }
+    p{
+      font-weight: $LatoRegular;
+      font-size: 10px;
+      color: $gray-color;
+    }
+    .news-heading{
+      h4{
+        padding-top: 0px;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+
+%tag-inherit{
+  .taglinks
+  {
+    a{
+    color: $gray-color;
+    }
+    .tag{
+      border: 1px solid $light-gray;
+      color: $gray-color;
+      font-size: $paragraph;
+      font-family: $LatoRegular;
+    }
+  }
+}
+
+
+ %pagination-inherit
+{
+  .pagination{
+    font-size: $paragraph;
+    font-family: $LatoRegular;
+    i{
+     font-size: $font16;
+    }
+    .liprev {
+      margin-right: 10px;
+    }
+     .linext {
+      margin-left: 10px;
+    }
+    .page-item:last-child .page-link , .page-item:first-child .page-link{
+      border-radius: 0px;
+    }
+  }
+}
+
+
+
+
+
+
+%card-inheritance{
+  .cart-link {
+    a{
+      font-size: $smallPar;
+      font-family: $RalewayBold;
+      color: $gray-color;
+    }
+
+    p{
+      font-size: $font16;
+      font-family: $LatoBold;
+      color: $black-color;
+    }
+  }
+}
+
+
+
+
+%color-inheritance{
+  .color-filter{
+    ul {
+      a{
+        list-style: inside;
+        font-size:$paragraph ;
+        font-family: $LatoRegular;
+        color: $gray-color;
+      }
+    }
+  }
+}
+
+
+%second-nav{
+  .firstcol{
+    .all{
+      background-color: $light-gray;
+      .three{
+        font-size: $smallPar;
+        font-family:$LatoRegular;
+        color: $gray-color;
+        .form-control{
+          border: 0px;
+          padding: 0px;
+          height: auto;
+          font-size: $smallPar;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+
+
+
+%newimg{
+  .shopimg{
+    .card{
+      border: 0px;
+      .cardimage{
+        position: relative;
+        .card-img-top{
+          border-radius: 0px;
+        }
+      }
+    }
+  }
+
+  .new{
+    top: 10px;
+    left:0px;
+    background-color: $main-color;
+    font-size:$RalewayBold;
+    font-size: $paragraph;
+    padding: 10px;
+  }
+}
+
+
+
+
+%inherit-card-style {
+  .shopimg:hover .hover{
+      visibility: visible;
+      opacity: 1;
+  }
+  .card-body{
+    padding: 20px 0px;
+    .card-title , i{
+      color: $gray97;
+      font-size: $font16;
+    }
+    p{
+      font-size: $paragraph;
+      font-family: $LatoBold;
+      color: $black-color;
+    }
+  }
+}
+
+
+

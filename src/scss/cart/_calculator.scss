@@ -1,0 +1,18 @@
+.cartpage{
+  .bodyCart{
+    .calc{
+      label{
+        font-size:$tableParg;
+        font-family:$RalewayBold ;
+        color: $black-color ;
+      }
+      .form-control{
+        height:45px;
+        border-radius: 0px;
+        font-size: $paragraph;
+        font-family:$LatoItalic;
+        color: $gray-color;
+      }
+    }
+  }
+}

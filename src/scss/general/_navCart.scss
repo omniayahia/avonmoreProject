@@ -1,0 +1,75 @@
+.navCart{
+ .btn:not(:disabled):not(.disabled):active,  .btn:not(:disabled):not(.disabled).active,  .show > .btn.dropdown-toggle{
+     color: white;       
+    }
+    .navbar{
+    width: 95%;
+    }
+    .fa-user , .fa-heart{
+        font-size: 0.65rem;
+        padding-top: 33px;
+    }
+    .btn-secondary{
+        border: none;
+        background-color: transparent;
+        i{
+            color: $black-color;
+            font-size:0.65rem;
+            padding-top:22px;
+        }
+        .number{
+         background-color: $main-color;
+         padding:0px 2px 3px ;
+         font-size: 0.8rem;
+        }
+    }
+    .btn-secondary:hover{
+        background-color: transparent;
+    }
+    .dropdown-menu-right{
+        right: 0px;
+        left: auto;
+        min-width: 300px;
+        max-width: 100vw;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 0px;
+        margin-top: 12px;
+        .dropdown-item{
+            border-bottom: 1px solid $gray;
+        }
+        .dropdown-item:last-child{
+            border-bottom:0px;
+        }
+        .cart-content{
+            .cartImg{
+                width: 90px;
+                height: 90px;
+                img{
+                width: 90px;
+                }
+            }
+            @extend %card-inheritance;
+        }   
+        .save{
+        color:$gray8;
+        font-size: $paragraph;
+        font-family: $LatoRegular;
+        }
+
+        .total{
+        color:$black-color;
+        font-size: $paragraph;
+        font-family: $LatoBold;
+        }
+    }
+}
+
+@media (max-width: 350px) { 
+    .all-shop{
+        .dropdown-menu-right{
+        min-width: 100vw;
+      }
+    }
+}
+  
+  

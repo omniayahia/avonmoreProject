@@ -1,0 +1,71 @@
+.shopItemBody{
+.rightcol{
+  @extend %icons-gray;
+color: $black-color;
+  .price{
+    font-family:$LatoBold;
+    font-size: 34px;
+    color: $main-color;
+  }
+  .lineThrough{
+      text-decoration: line-through;
+      color: $gray-color;
+      font-size: $tableParg;
+  }
+
+select.form-control:not([size]):not([multiple]){
+   width: 210px;
+   height: 45px;
+   padding: 0px;
+   font-family: $LatoRegular;
+   font-size: $paragraph;
+   color: $gray-color;
+  }
+  .qty-span{
+    font-family: $RalewayBold;
+    font-size: $font16;
+  }
+  .qty{
+    width: 45px;
+    height: 45px;
+    color: $gray-color;
+
+  }
+  i{
+    font-size: 16px;
+  }
+
+  .categories{
+    font-family: $LatoRegular;
+    font-size: $paragraph;
+    color: $gray-color;
+    .bold{
+      font-size: $paragraph;
+      font-family: $RalewayBold;
+      color: $black-color;
+    }
+  }
+  .share{
+    color: $black-color;
+    font-size: $paragraph;
+    font-family: $RalewayBold;
+    .icon{
+      border: 1px solid $light-gray;
+    }
+  }
+
+
+}
+
+
+}
+@media (max-width: 576px)  {
+  .shopItemBody{
+  .tabs{
+li{
+margin-bottom: 20px;
+}
+  }
+}
+
+}

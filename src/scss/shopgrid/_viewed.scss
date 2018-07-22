@@ -1,0 +1,12 @@
+.shopGridBody{
+  .shopBody{
+    .right-col{
+      .viewed{
+        @extend %card-inheritance;
+        i{
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}

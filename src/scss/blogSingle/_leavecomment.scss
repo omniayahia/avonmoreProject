@@ -1,0 +1,20 @@
+.blogspage{
+  .blogSingle{
+    .form{
+      @extend   %text-rightcol;
+      textarea, input{
+        border-radius: 0px;
+       font-size:$smallPar;
+       font-weight: $LatoRegular;
+       margin-bottom: 20px;
+      }
+      button{
+        transition: all 0.8s ease;
+        padding: 10px;
+      }
+      button:hover{
+        background-color: $main-color;
+      }
+    }
+  }
+}

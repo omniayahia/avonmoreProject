@@ -1,0 +1,56 @@
+.portfoliosingle{
+  .relatedpost{
+    padding: 65px 0px 130px 0px;
+      h4{
+        font-size: 24px;
+        font-family: $RalewayBold;
+      }
+  }
+
+  @for $i from 1 through 3
+     {
+     .bg-three#{$i}{
+       background-image: url("../images/portfolioSingle/img-#{$i}.jpg");
+       height: 335px;
+       @extend %bg-img;
+        }
+        .bg-three#{$i}:hover  .overlay-three{
+          display: block;
+        }
+      }
+
+
+
+      
+  .overlay-three{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.7);
+    display: none;
+    i{
+    font-size: 25px;
+    line-height: 335px;
+    cursor: pointer;
+    color: $black-color;
+
+    }
+
+  }
+
+
+  .modal-body{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .modal-dialog{
+    width: auto;
+    height: auto;
+  }
+
+  .modal-dialog .modal-content img{
+    width: auto;
+  }
+
+}

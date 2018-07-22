@@ -1,0 +1,11 @@
+.shopGridBody{
+  .shopBody{
+    .right-col{
+      @extend %inhiret-rightcol-search;
+      @extend %text-rightcol;
+      .categ{
+        @extend %inherit-list;
+      }
+    }
+  }
+}

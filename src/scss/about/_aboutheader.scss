@@ -1,0 +1,18 @@
+.about{
+  .about-bg{
+    background-image: url("../images/aboutUs/section-bg-9.jpg");
+    @extend %bg-img;
+    //background-position: right;
+    height: 340px;
+    .about-header {
+      @extend %same-style;
+      }
+  }
+}
+@media(max-width: 768px){
+  .about{
+    .about-bg{
+      background-position: 70% ;
+    }  
+  }
+}

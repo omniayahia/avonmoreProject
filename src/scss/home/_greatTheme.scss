@@ -1,0 +1,56 @@
+.great-theme{
+  @extend %inherit-section;
+  background-image: url('../images/index/section-bg-19.jpg');
+  background-position: center;
+  background-size: cover;
+  font-size: $paragraph;
+  p{
+    margin-bottom: 30px;
+  }
+
+  hr{
+    margin-left: 0px;
+  }
+  #accordion{
+    margin-bottom: 40px;
+    .card{
+      background-color:transparent !important;
+      border: none;
+      .card-header{
+        border: none;
+        background-color: transparent;
+        padding: 0px;
+        .collapsebtn{
+          color: $black-color;
+          font-size: $smallPar;
+          font-family: $LatoRegular;
+          .iconBG{
+            color: $black-color;
+            border-radius: 50%;
+            border: 1px solid $black-color;
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+            padding-top: 3px;
+            margin-right: 15px;
+            display: inline-block;
+            vertical-align: middle;
+          }
+        }
+        .btn-link:hover , .btn-link:active , .btn-link:focus {
+          text-decoration: none;
+          .iconBG{
+            color: $white-color;
+            border: 1px solid $main-color;
+            background-color: $main-color;
+          }
+        }
+      }
+      .card-body{
+        font-size: $smallPar;
+        font-family: $LatoRegular;
+        color: $gray-color;
+      }
+    }
+  }
+}

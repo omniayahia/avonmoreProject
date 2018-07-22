@@ -1,0 +1,104 @@
+.portfolio{
+
+.portfolio-bg{
+  background-image: url("../images/portfolio/section-bg-8.jpg");
+  @extend %page-bg;
+  @extend %bg-img;
+
+  .portfolio-container{
+   @extend %same-style;
+  }
+}
+
+.portfolioBody{
+  
+
+ul{
+  padding: 20px 0px;
+  li {
+    display: inline-block;
+    padding: 8px 6px;
+    font-family: $RalewayBold;
+    font-size: 18px;
+    a{
+      color: $gray-color;
+    }
+  }
+  .active{
+    color: $main-color;
+  }
+}
+}
+
+.card-columns{
+  .card{
+    border-radius: 0px;
+    .card-img-top{
+        border-radius: 0px;
+    }
+    .one{
+      position: relative;
+      .opacitybg{
+        background-color: rgba(255, 255, 255, 0.7);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.3s linear;
+
+          i{
+            padding: 15px;
+            color: $black-color;
+            font-size: 20px;
+          }
+      }
+
+    }
+
+    .card-body{
+      h5{
+        font-family: $RalewayBold;
+        font-size: $largeParg;
+      }
+      p{
+        font-family: $LatoRegular;
+        font-size: $paragraph;
+      }
+    }
+
+    .one:hover .opacitybg{
+  visibility: visible;
+  opacity: 1;
+
+}
+  }
+}
+
+@extend %model;
+
+
+@media (max-width: 992px){
+.card-columns {
+    column-count: 2;
+}
+
+}
+
+
+
+@media (max-width: 576px){
+.card-columns {
+    column-count: 1;
+}
+
+}
+
+}
+
+
+.viewbtn{
+  margin-bottom: 70px;
+}

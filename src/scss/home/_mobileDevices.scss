@@ -1,0 +1,17 @@
+.mobile-devices{
+  @extend %inherit-section;
+  ul{
+    margin-top: 30px;
+    list-style: none;
+    li::before {
+    content: " • ";
+    color: $main-color;
+    padding-right: 10px;
+    }
+      li{
+        font-size: $smallPar;
+        font-family: $LatoRegular;
+        color: $gray-color;
+        }
+  }
+}

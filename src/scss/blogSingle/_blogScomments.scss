@@ -1,0 +1,17 @@
+.blogspage{
+  .blogSingle{
+    .comments{
+      @extend   %text-rightcol;
+      h4{
+        font-size:$paragraph ;
+        font-family:$RalewayBold;
+      }
+      span{
+         font-family: $LatoRegular;
+         font-size: 10px;
+         color:$gray8;
+      }
+    }
+
+  }
+}

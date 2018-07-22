@@ -1,0 +1,10 @@
+.cartpage{
+  .cart-bg{
+    background-image: url("../images/cart/section-bg-shop.jpg");
+    height: 340px;
+    @extend %bg-img;
+    .cart-container{
+     @extend %same-style;
+    }
+  }
+}

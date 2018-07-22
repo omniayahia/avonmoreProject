@@ -1,0 +1,33 @@
+.shopItemBody{
+
+  .tabs{
+  ul li a {
+    border: 1px solid $light-gray;
+    font-size: $font16;
+    font-family: $LatoBold;
+    color: $black-color;
+
+  }
+  li.active  a{
+
+background-color: $main-color;
+
+    }
+.nav-tabs{
+  border: 0px;
+}
+.tab-content{
+  background-color: $light-gray;
+  h3{
+    font-size: $paragraph;
+    font-family: $LatoBold;
+    font-weight: bold;
+  }
+  li{
+    font-size: $paragraph;
+    font-family:$LatoRegular;
+    color: $gray-color;
+  }
+}
+}
+}

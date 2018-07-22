@@ -1,0 +1,18 @@
+.blog{
+.blogBody{
+    padding: 100px 0px;
+}
+
+.blog-bg{
+  background-image: url("../images/blog/section-bg-11.jpg");
+  @extend %bg-img;
+height: 340px;
+
+  .blog-container{
+
+   @extend %same-style;
+  }
+
+}
+
+}

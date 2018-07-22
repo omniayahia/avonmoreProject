@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width , initial-scale=1.0">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <link rel="stylesheet" href="css/fontawesome-all.min.css">
+       <link rel="stylesheet" href="dist/css/base.css">
+    </head>
+    <body class="shopGridBody all-shop">
+         <header class="navCart">
+            <div class="container d-flex">
+                <nav class="navbar navbar-expand-lg navbar-light p-0 d-flex justify-content-between  ">
+                    <a class="navbar-brand mb-1" href="index.html"><img src="dist/images/index/logo-dark.png"></a>
+                    <button class="navbar-toggler pr-0 pt-2 pb-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fas fa-align-justify"></i></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Blog
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="blog.html">Blog</a>
+                                <a class="dropdown-item" href="blogSingle.html">Blog Single</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                                <a class="dropdown-item" href="portfolioSingle.html">Portfolio Single </a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Shop
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="shopGrid.html">Shop Grid</a>
+                                <a class="dropdown-item" href="shopItem.html">Shop Item</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        </ul>
+                    </div>    
+                </nav>
+                <i class="fas fa-user pr-1 pl-2 ml-auto"></i>
+                <i class="fas fa-heart pr-1 "></i>
+                   <div class="dropdown ">
+                      <button class="btn btn-secondary  pl-0 pr-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-shopping-cart "></i> 
+                          <span class="number ">2</span>       
+                      </button>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                          <button class="dropdown-item" type="button">
+                              <div class="row cart-content">
+                                  <div class="col-3 cartImg pl-0 ">
+                                    <img src="dist/images/shopGrid/img-1.jpg" class="img-fluid">
+                                  </div>
+                                  <div class="col-9 cart-link pr-0">
+                                    <div class="d-flex justify-content-between">
+                                      <a href="#">Geometric Wooden Vase</a> <i class="far fa-trash-alt "></i>
+                                    </div>
+                                    <p> $50.00</p>
+                                  </div>
+                              </div>
+                          </button>  
+                          <button class="dropdown-item" type="button">
+                              <div class="row cart-content">
+                                  <div class="col-3 cartImg pl-0 ">
+                                    <img src="dist/images/shopGrid/img-1.jpg" class="img-fluid">
+                                  </div>
+                                  <div class="col-9 cart-link pr-0">
+                                    <div class="d-flex justify-content-between">
+                                      <a href="#">Geometric Wooden Vase</a> <i class="far fa-trash-alt "></i>
+                                    </div>
+                                    <p> $50.00</p>
+                                  </div>
+                              </div>
+                          </button> 
+                          <button class="dropdown-item" type="button">
+                              <div class="row cart-content">
+                                  <div class="col-3 cartImg pl-0 ">
+                                    <img src="dist/images/shopGrid/img-1.jpg" class="img-fluid">
+                                  </div>
+                                  <div class="col-9 cart-link pr-0">
+                                    <div class="d-flex justify-content-between">
+                                      <a href="#">Geometric Wooden Vase</a> <i class="far fa-trash-alt "></i>
+                                    </div>
+                                    <p> $50.00</p>
+                                  </div>
+                              </div>
+                          </button> 
+                      </div>
+                  </div>
+            </div> <!-- container           -->
+        </header>
+          <section class="shopgrid-bg">
+              <div class="container shopgrid-header  ">
+                <div class="row d-flex align-items-center">
+                  <div class="col-12">
+                    <h4>Shop grid </h4>
+                    <p> Our Products</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="shopBody container">
+              <div class="shopBody">
+                <div class="row">
+                    <!-- left col section -->
+                  <div class="col-md-9  col-12 leftcol">
+                    <div class="row">
+
+                      <div class="col-12 firstcol mb-3">
+                         <div class="all">
+                             <div class="p-1 d-flex justify-content-between align-items-center">
+                               <p class="d-none d-sm-block">Showing 1-12 of 230 items</p>
+                               <div class="three">
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <form>
+                                   <div class="form-group pr-3 mb-0">
+                                       <select class="form-control" id="exampleFormControlSelect1">
+                                         <option>Sort by Position</option>
+                                         <option>2</option>
+                                         <option>3</option>
+                                         <option>4</option>
+                                         <option>5</option>
+                                       </select>
+                                   </div>
+                                  </form>
+                                  <i class="fas fa-th-large pr-2 d-none d-sm-block"></i>
+                                  <i class="fas fa-bars d-none d-sm-block"></i>
+                                </div>
+                               </div>
+                              </div>
+                          </div>
+                      </div>
+
+
+                      <div class="col-12 mb-3 ">
+                        <div class="row">
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-1.jpg" >
+                                <div class="col-lg-4 col-md-6 col-12 position-absolute new text-center ">SALE!
+                                </div>
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-2.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+                          <div class="col-lg-4 col-sm-6  col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-3.jpg" >
+
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-4.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-5.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-6.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-7.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-8.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+
+
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-9.jpg" >
+                                <div class="col-lg-4 col-md-6 col-12 position-absolute new text-center ">SALE!
+                                 </div>
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-10.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-11.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+
+
+
+                          <div class="col-lg-4 col-sm-6 col-12 shopimg ">
+                            <div class="card" >
+                              <div class="cardimage">
+                                <img class="card-img-top img-fluid" src="dist/images/shopGrid/img-12.jpg" >
+                                <div class=" col-12 position-absolute hover  d-flex justify-content-center align-items-center ">
+                                  <button type="button" class="btn  custombtn" >ADD TO CART</button>
+                                </div>
+                              </div>
+                              <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                  <h5 class="card-title mb-2">Snug. Vase Low / Copper</h5>
+                                  <i class="far fa-heart"></i>
+                                </div>
+                                <p class="card-text">$15.00</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- col-4 -->
+                        </div>
+                        <!-- row -->
+                      </div>
+                      <!-- col-12 -->
+
+                      <div class="col-8 offset-2  d-flex  justify-content-center ">
+                        <nav aria-label="Page navigation example">
+                          <ul class="pagination ">
+                            <li class="page-item liprev  "><a class="page-link hoverbg " href="#"><i class="fas fa-arrow-left"></i><span class="prev">prev</span></a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item linext"><a class="page-link hoverbg" href="#"><span class="next">next</span><i class="fas fa-arrow-right"></i></a></li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <!-- right col section -->
+                  <div class="col-md-3 col-12 right-col">
+                    <div class="row">
+
+                      <div class="col-12 mb-4">
+                        <div class="placeholder-icon">
+                          <input class="form-control" type="text" placeholder="Type and Hit Enter... ">
+                          <span class="icon"><i class="fas fa-search"></i> </span>
+                       </div>
+                      </div>
+
+
+                      <div class="col-12 mb-4 categ">
+                        <h5>Product Categories</h5>
+                        <hr class="coloredHr ml-0">
+                        <ul class="list-group">
+                          <li class="list-group-item d-flex justify-content-between align-items-center ">
+                            <a href="#">Furniture </a>
+                            <span class="badge  badge-pill">( 45 )</span>
+                          </li>
+                          <li class=" list-group-item d-flex justify-content-between align-items-center ">
+                            <a href="#">  Vases </a>
+                            <span class="badge  badge-pill">( 13 )</span>
+                          </li>
+                          <li class=" list-group-item d-flex justify-content-between align-items-center ">
+                            <a href="#">  Pictures </a>
+                            <span class="badge badge-pill">( 21 )</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-center ">
+                          <a href="#">  Lighting </a>
+                            <span class="badge  badge-pill">( 7 )</span>
+                          </li>
+                          <li class=" list-group-item d-flex justify-content-between align-items-center ">
+                            <a href="#"> Figurines</a>
+                            <span class="badge  badge-pill">( 19 )</span>
+                          </li>
+                          <li class=" list-group-item d-flex justify-content-between align-items-center ">
+                              <a href="#"> Plants </a>
+                            <span class="badge badge-pill">( 30 )</span>
+                          </li>
+                          <li class=" list-group-item d-flex justify-content-between align-items-center ">
+                            <a href="#">  Decorative Elements </a>
+                            <span class="badge  badge-pill">( 6 )</span>
+                          </li>
+
+                          <li class=" list-group-item d-flex justify-content-between align-items-center ">
+                            <a href="#">  Mirror</a>
+                            <span class="badge  badge-pill">( 6 )</span>
+                          </li>
+
+                          <li class=" list-group-item d-flex justify-content-between align-items-center ">
+                            <a href="#">  Candles</a>
+                            <span class="badge  badge-pill">( 6 )</span>
+                          </li>
+                        </ul>
+                      </div>
+    
+
+                      <div class="col-12 mb-4  ">
+                        <h5>Color Filter</h5>
+                        <hr class="coloredHr ml-0">
+                        <div class="row color-filter">
+
+                          <div class="col-lg-4 pr-0 col-md-6 col-4">
+                            <ul class="pl-0 mb-0">
+                              <a href="#">    <li> White </li></a>
+                              <a href="#">   <li>Black</li></a>
+                              <a href="#">   <li>Bage</li></a>
+                            </ul>
+                          </div>
+
+
+                          <div class="col-lg-4 pr-0 col-md-6 col-4">
+                            <ul class="pl-0 mb-0">
+                              <a href="#">     <li>Red</li></a>
+                              <a href="#">   <li>Yellow</li></a>
+                              <a href="#">   <li>Ornge</li></a>
+                            </ul>
+                          </div>
+
+
+                          <div class="col-lg-4 pr-0 col-md-6 col-4 ">
+                            <ul class="pl-0 mb-0">
+                              <a href="#"> <li>Green</li></a>
+                              <a href="#">   <li>Blue</li></a>
+                              <a href="#">   <li>Purple</li></a>
+                            </ul>
+                          </div>
+
+                        </div>
+                      </div>
+
+
+
+                      <div class="col-md-12 col-6 mb-4 viewed ">
+                        <h5>Previously Viewed</h5>
+                        <hr class="coloredHr ml-0">
+                        <div class="row cart-content pt-2">
+                          <div class="col-xl-4 col-6 img d-flex align-items-center  mb-2  ">
+                            <img src="dist/images/shopGrid/widget-img-1.jpg" class="img-fluid">
+                          </div>
+
+                          <div class="col-xl-8 col-6 cart-link p-0  mb-2 ">
+                            <div class="d-flex justify-content-between">
+                              <a href="#">Ceramic Textured Vase</a>
+                            </div>
+
+                            <p>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <br>
+                                $18.00
+                            </p>
+                          </div>
+
+
+                          <div class="col-xl-4 col-6  img d-flex align-items-center   mb-2  ">
+                            <img src="dist/images/shopGrid/widget-img-2.jpg" class="img-fluid">
+                          </div>
+
+                          <div class="col-xl-8 col-6  cart-link p-0  mb-2 ">
+                            <div class="d-flex justify-content-between">
+                              <a href="#">Ceramic Textured Vase</a>
+                            </div>
+
+                            <p>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <br>
+                                $18.00
+                            </p>
+                          </div>
+
+
+
+                          <div class="col-xl-4 col-6 img d-flex align-items-center   mb-2  ">
+                            <img src="dist/images/shopGrid/widget-img-3.jpg" class="img-fluid">
+                          </div>
+
+                          <div class="col-xl-8 col-6  cart-link p-0  mb-2 ">
+                            <div class="d-flex justify-content-between">
+                              <a href="#">Ceramic Textured Vase</a>
+                            </div>
+
+                            <p>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <br>
+                                $18.00
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                   <!-- end row in right col  -->
+                  </div>
+                </div>
+              </div>
+          </section>
+          <section class="map">
+              <iframe allowfullscreen class="w-100 h-100" frameborder=0 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3413.0113164308896!2d29.903979614750476!3d31.19269958147923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c394ebd03ec1%3A0x16cbff5d844ff34b!2sInformation+Technology+Institute!5e0!3m2!1sen!2seg!4v1523313622085" style="border:0"></iframe>
+      </section>
+      <footer>
+          <div class="container">
+              <div class="row align-items-start footersections">
+                  <div class="col-lg-4 pl-2 pr-2 about">
+                      <h3>About Us</h3>
+                      <hr class="coloredHr ml-0">
+                      <p>Morbi eu purus eget tellus fringilla malesuada eget nec nisi. Etiam nec dolor porttitor, cursus elit quis, tristique erat. Sed rhoncus molestie elit sit amet viverra. Morbi eu purus eget tellus fringilla malesuada eget nec nisi. Etiam nec dolor porttitor, cursus elit quis, tristique erat. Sed rhoncus molestie elit sit amet viverra.</p>
+                      <ul class="pl-0 mb-0">
+                          <li><i class="fas fa-map-marker-alt pl-1"></i><span> 90 Swanston St,Melbourne Australia</span></li>
+                          <li><i class="fas fa-phone fa-rotate-90"></i><span> +61 3 9559 9559 or +61 3 9669 9669</span></li>
+                          <li class="pb-0"><i class="pl-1 fa-envelope far"></i><span> support@gtcreators.com</span></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-4 pl-2 pr-2 recent">
+                      <h3>Recent News</h3>
+                      <hr class="coloredHr ml-0">
+                      <div class="align-items-center d-flex three-imgs mb-3">
+                          <div class="recent-img9"></div>
+                          <div>
+                              <p><a href="#">Ut molestie quam erat, non finibus erat</a></p>
+                              <p class="date">14/07/2016</p>
+                          </div>
+                      </div>
+                      <div class="align-items-center d-flex three-imgs mb-3">
+                          <div class="recent-img10"></div>
+                          <div>
+                              <p><a href="#">Ut molestie quam erat, non finibus erat</a></p>
+                              <p class="date">14/07/2016</p>
+                          </div>
+                      </div>
+                      <div class="align-items-center d-flex three-imgs mb-0">
+                          <div class="recent-img11"></div>
+                          <div>
+                              <p><a href="#">Ut molestie quam erat, non finibus erat</a></p>
+                              <p class="date">14/07/2016</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-8 col-md-6 our-gallery pr-1">
+                      <h3>Our Gallery</h3>
+                      <hr class="coloredHr ml-0">
+                      <div class="row">
+                          <div class="pr-0 col-3 mb-3">
+                              <a href="#"><img src="dist/images/index/img-1 (1).jpg" class="img-fluid"></a>
+                          </div>
+                          <div class="pr-0 col-3 mb-3">
+                              <a href="#"><img src="dist/images/index/img-2 (1).jpg" class="img-fluid"></a>
+                          </div>
+                          <div class="pr-0 col-3 mb-3">
+                              <a href="#"><img src="dist/images/index/img-3 (1).jpg" class="img-fluid"></a>
+                          </div>
+                          <div class="pr-0 col-3 mb-3">
+                              <a href="#"><img src="dist/images/index/img-4 (1).jpg" class="img-fluid"></a>
+                          </div>
+                          <div class="pr-0 col-3 mb-2">
+                              <a href="#"><img src="dist/images/index/img-5.jpg " class="img-fluid"></a>
+                          </div>
+                          <div class="pr-0 col-3 mb-2">
+                              <a href="#"><img src="dist/images/index/img-6.jpg" class="img-fluid"></a>
+                          </div>
+                          <div class="pr-0 col-3 mb-2">
+                              <a href="#"><img src="dist/images/index/img-7.jpg" class="img-fluid"></a>
+                          </div>
+                          <div class="pr-0 col-3 mb-2">
+                              <a href="#"><img src="dist/images/index/img-8.jpg" class="img-fluid"></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="container-fluid end-footer">
+              <div class="align-items-center row copyright">
+                  <div class="text-center col-md-12">
+                      <p>© 2016 GTC. All rights reserved.</p>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="src/js/home.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

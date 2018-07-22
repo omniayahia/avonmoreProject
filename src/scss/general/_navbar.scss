@@ -1,0 +1,37 @@
+header{
+    .navbar-light .navbar-nav .nav-link{
+        color: $black-color;
+        font-size: 18px;
+        font-family: $LatoRegular;   
+    }
+    .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+        color: $main-color;
+    }
+    .navbar-toggler{
+        font-size:1rem;
+        border: 0px;
+        i{
+            color:$black-color;
+        }
+    }
+    .dropdown-menu{
+     top:66px;
+     margin-bottom: 20px;
+    }
+}
+
+@media(max-width:992px){
+    .navbar-collapse{
+        z-index: 999;
+        background-color: white;
+        li{
+            padding: 0px 20px
+        }
+        li:hover{
+            background-color: #e0dfdf69;
+        }
+        li:last-child{
+            margin-bottom: 20px;
+        }
+    }
+}

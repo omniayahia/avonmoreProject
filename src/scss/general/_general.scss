@@ -1,0 +1,86 @@
+$main-color : #fcca03;
+$black-color:#303233;
+$gray-color:#7a7a7a;
+$light-gray:#eaeaea;
+$gray:#e7e7e7;
+$gray8:#a8a8a8;
+$gray97:#979797;
+$white-color:white;
+$bg-opacity:rgba(255, 255, 255, 0.7);
+$padding-bottom:35px;
+*{
+  box-sizing: border-box;
+}
+.form-control:focus{
+box-shadow: none;
+}
+button:focus{
+  outline: none;
+}
+
+p{
+  margin: 0px;
+}
+
+  .custombtn {
+  background-color: $white-color;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+  font-family: $RalewayBold;
+  font-size: $btnfont;
+  color: $black-color;
+  border-radius:0px ;
+  -webkit-border-radius:0px ;
+  -moz-border-radius:0px ;
+  -ms-border-radius:0px ;
+  transition: all 0.25s ease-in-out;
+
+
+ }
+  .custombtn:hover{
+   background-color: $main-color;
+   color: $white-color;
+ }
+
+
+ .coloredbtn {
+ background-color: $main-color;
+ box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+ font-family: $RalewayBold;
+ font-size: $btnfont;
+  color: $black-color;
+  border-radius:0px ;
+  -webkit-border-radius:0px ;
+  -moz-border-radius:0px;
+  -ms-border-radius:0px ;
+  transition: all 0.25s ease-in-out;
+
+}
+ .coloredbtn:hover{
+  background-color: $white-color;
+}
+
+
+
+ .coloredHr{
+   width:36px;
+   height: 1px;
+   background-color: $main-color;
+   margin-top: 0px;
+ }
+
+
+
+%icons-gray{
+  .icons{
+    color:$black-color;
+    background-color: $light-gray;
+    height: 50px;
+    display: inline-block;
+  }
+}
+
+
+
+.btn:focus, .btn.focus{
+  box-shadow: none;
+}

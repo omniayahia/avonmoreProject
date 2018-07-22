@@ -1,0 +1,93 @@
+footer{
+  background-color: $black-color;
+  color: $white-color;
+  h3{
+    font-size: 20px;
+    font-family: $RalewayBold;
+  }
+  .footersections{
+    @extend %inherit-section;
+    .about{
+      p{
+        margin-bottom: 30px;
+        color: white;
+      }
+    }
+    .recent{
+      [class*=recent-img]{
+        margin-right: 20px;
+      }
+
+      .three-imgs{
+        margin-bottom: 15px;
+        a{
+          color: $white-color;
+        }
+      }
+      @for $x from 9 through 11
+      {
+       .recent-img#{$x}{
+         background-image: url("../images/index/img-#{$x}.jpg");
+         background-position: center;
+         background-size: cover;
+         width:50px ;
+         height:50px ;
+        }
+      }
+      .date{
+        font-size: 10px;
+        font-family: $KaushanScriptFont;
+        color:$gray97;
+      }
+
+      p{
+        font-family: $RalewayBold;
+        font-size:$paragraph;
+      }
+    }
+    ul{
+      list-style: none;
+      font-size: $paragraph;
+      font-family: $LatoRegular;
+      li{
+        padding-bottom: 15px;
+        i{
+          padding-right: 15px;
+        }
+      }
+    }
+  }
+
+  .end-footer{
+      height: 50px;
+      background-color:rgb(35, 36, 36);
+  }
+}
+.copyright{
+  height: 50px;
+  color: $gray-color;
+  font-size: 12px;
+  font-family: $LatoRegular;
+}
+
+@media all and (max-width: 992px)
+{
+  footer{
+    .about , .recent{
+      margin-bottom: 50px;
+    }
+    .footersections ul li{
+      padding-bottom: 25px;
+    }
+  }
+}
+
+@media all and (max-width: 992px)
+{
+  footer{
+    .footersections ul li{
+    padding-bottom: 35px;
+
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.creativity{
+  background-image:  url('../images/index/section-bg-4.jpg');
+  background-position: center;
+  background-size:cover;
+}
+.creativityDiv{
+  min-height: 100%;
+}
+
+.third-section{
+  position: relative;
+  @extend %inherit-section;
+  hr{
+    margin-left: 0px;
+  }
+  .mobile{
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-sec{
+    padding-top: 70px;
+  }
+}

@@ -1,0 +1,11 @@
+.blog{
+  .comments , .archive{
+    .categories-li
+    {
+      a{
+        font-family: $LatoItalic;
+        font-size: $paragraph;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.featured{
+  background-color: $main-color;
+  padding: 60px 0px;
+  .featured-container{
+    .row{
+      font-family: $RalewayBold;
+      color: $black-color;
+      @for $i from 1 through 4
+        {
+        .icon-featured#{$i}{
+          background-image: url("../images/index/sec4-icon#{$i}.png");
+          background-position: center;
+          background-size: cover;
+          background-size:auto 100%;
+          background-repeat: no-repeat;
+        }
+      }
+      .counter {
+        font-size:50px;
+      }
+    }
+    h5{
+      font-size: 12px;
+      margin-bottom: 0px;
+      padding-top: 10px;
+    }
+  }
+}
+
+@media (max-width: 768px) { 
+  .featured{
+    [class^=col]{
+     margin-bottom: 35px;
+    }
+  }
+}

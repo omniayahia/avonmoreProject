@@ -1,0 +1,18 @@
+@media all and (max-width: 768px)
+{
+  .blog{
+    .leftcol{
+     margin-bottom: 30px;
+    }
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+  .rightcol{
+    .news-heading{
+      margin-bottom: 30px;
+    }
+  }
+}

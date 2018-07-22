@@ -1,0 +1,38 @@
+.contactpage{
+  .contact-icons{
+    padding-bottom: 130px;
+  }
+.form{
+  h5{
+      font-family: $RalewayBold;
+      font-size: 24px;
+    }
+
+  form{
+    font-family: $LatoRegular;
+  color: $gray-color;
+
+  input{
+    height: 34px;
+    border-radius: 0px;
+    font-size: $smallPar;
+
+  }
+
+  textarea{
+    border-radius: 0px;
+    font-size: $smallPar;
+
+  }
+
+  button{
+    font-family: $RalewayBold;
+    color: $black-color;
+  }
+}
+
+}
+
+}
+
+

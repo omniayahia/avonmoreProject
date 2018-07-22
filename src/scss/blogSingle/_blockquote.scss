@@ -1,0 +1,71 @@
+.blogspage{
+  .blogSingle{
+    blockquote{
+    background-color: $white-color;
+      p{
+      font-family: $LatoItalic;
+      font-size: $paragraph;
+      color: $gray-color;
+      z-index: 999;
+      .name{
+        font-size:$smallPar ;
+        font-family:$RalewayBold ;
+        font-weight: bold;
+        color: $black-color;
+      }
+    }
+
+  .p-relative{
+    position: relative;
+  }
+  span{
+    height: 100%;
+    i{
+      font-size: 1rem;
+      color: $main-color;
+    }
+  }
+
+  .bg-icon{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    i{
+      font-size: 70px;
+      color: rgba(230, 230, 231, 0.5);
+    }
+  }
+}
+
+
+  .text{
+    color: $gray-color;
+    font-size: $paragraph;
+    font-family: $LatoRegular;
+    span{
+      font-weight: $RalewayBold;
+      font-size: $largeParg;
+      color: $black-color;
+    }
+  }
+
+  ul{
+    list-style:none;
+    li{
+      text-transform: uppercase;
+      color: $gray-color;
+      font-size: 11px;
+      font-family: $LatoRegular;
+    }
+
+    li::before {
+    content: "•";
+    color:$main-color;
+    font-size: 20px;
+    margin: -15px 10px 0px 15px;
+  }
+  }
+
+ }
+}

@@ -1,0 +1,28 @@
+.shopGridBody{
+  .leftcol{
+    @extend %newimg;
+    @extend %inherit-card-style;
+    .new{
+      top: 0px;
+      left:0px;
+    }
+    .hover{
+      top: 0px;
+      left:0px;
+      height: 100%;
+      background-color: $bg-opacity;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.3s linear;
+      button{
+        background-color: white;
+      }
+      button:hover{
+        background-color: $main-color;
+      }
+    }  
+  }
+}
+
+
+

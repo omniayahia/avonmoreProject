@@ -1,0 +1,29 @@
+.cartpage{
+  .bodyCart{
+    .cupon{
+      .form-control{
+            width:100%;
+            border-radius: 0px;
+            padding-top: 50px;
+      }
+      form button{
+        background-color: $main-color;
+        color: $black-color;
+        font-size: $btnfont;
+        font-family:$RalewayBold;
+        border-radius: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+      }
+
+    }
+
+    h5{
+      font-size: 0.8rem;
+      font-family: $RalewayBold;
+      color: $black-color;
+    }
+  }
+}

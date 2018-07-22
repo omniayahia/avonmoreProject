@@ -1,0 +1,7 @@
+.blog{
+  .rightcol{
+    @extend %inhiret-rightcol-search;
+    @extend %text-rightcol;
+    @extend %inherit-list;
+    }
+}

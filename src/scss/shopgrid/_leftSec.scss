@@ -1,0 +1,8 @@
+.shopGridBody{
+  .shopBody{
+    @extend %inherit-section;
+   .leftcol{
+     @extend %second-nav;
+   }
+  }
+}

@@ -1,0 +1,23 @@
+.fourimgs
+{
+  [class*=col]
+  {
+   height: 430px;
+   overflow: hidden;
+  }
+    @for $i from 1 through 4
+       {
+       .img#{$i}{
+         background-image: url("../images/index/img-#{$i}.jpg");
+         background-position: center;
+         background-size: cover;
+         width: 100%;
+         height:100%;
+         transition: all .5s;
+          }
+           .img#{$i}:hover{
+              transform: scale(1.2);
+          }
+        }
+
+}

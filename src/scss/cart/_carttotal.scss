@@ -1,0 +1,32 @@
+
+.cartpage{
+  .bodyCart{
+    .carttotal{
+      .list-group-item
+        {
+          border: 0px;
+          border-bottom: 1px solid $light-gray;
+          border-radius: 0px;
+          span{
+            font-size: $tableParg;
+            font-family: $RalewayBold ;
+          }
+          .sub{
+            font-family: $LatoBold;
+            font-size: $xlparg;
+            font-weight: bold;
+          }
+          .local{
+            font-size:$tableParg;
+            font-family: $LatoRegular;
+            color: $gray-color;
+          }
+          .order{
+            color: $main-color;
+          }
+        }
+
+    }
+
+  }
+}

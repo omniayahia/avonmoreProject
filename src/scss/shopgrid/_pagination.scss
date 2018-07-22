@@ -1,0 +1,6 @@
+.shopGridBody{
+  .leftcol{
+    @extend %prev-next-inherit;
+    @extend %pagination-inherit;
+  }
+}

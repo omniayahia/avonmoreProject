@@ -1,0 +1,23 @@
+.they-say{
+  @extend %inherit-section ;
+  background-image: url('../images/index/section-bg-5.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  .blackHr{
+    margin-bottom: 35px;
+  }
+  blockquote{
+    font-size: 16px;
+    padding-bottom: 45px;
+  }
+  h4{
+    font-size: 20px;
+    font-family: $RalewayBold;
+  }
+  h5{
+    font-family: $LatoRegular;
+    font-size:$paragraph;
+    color: $gray-color;
+  }
+}

@@ -1,0 +1,33 @@
+    .shopItemBody{
+      .rightcol{
+         h5{
+           font-size:1rem ;
+           font-family:$RalewayBold  ;
+         }
+         .star-icon i{
+           color: $light-gray;
+           font-size: $font16;
+         }
+         .by{
+           font-size: $paragraph;
+           font-family: $LatoRegular;
+           color: $gray-color;
+           display: block;
+           margin-bottom: 30px;
+
+         }
+.material{
+  font-size: $paragraph;
+  font-family: $LatoRegular;
+  .bold{
+    font-family:$RalewayBold ;
+    font-size: $font16;
+    color: $black-color;
+  }
+
+
+}
+
+      }
+
+    }

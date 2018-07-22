@@ -1,0 +1,23 @@
+.about{
+  .facts{
+    @extend %inherit-section;
+   p{
+     font-size: $paragraph;
+   }
+   .list-group-item{
+     border: 0px;
+     font-size:$smallPar ;
+     font-family: $RalewayBold; 
+     .badge{
+       color: $black-color;
+     }
+   }
+   .progress{
+     border-radius: 0px;
+     height: 5px;
+     .progress-bar{
+       background-color: $main-color;
+      }
+    }
+  }
+}

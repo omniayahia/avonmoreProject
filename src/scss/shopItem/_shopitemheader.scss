@@ -1,0 +1,14 @@
+
+                    .shopItemBody{
+                      .shopItem-bg{
+
+                        background-image: url("../images/shopGrid/section-bg-shop.jpg");
+                        @extend %bg-img;
+                      height:40vh;
+
+                        .shopItem-header{
+                          @extend %same-style;
+
+                        }
+                      }
+                    }

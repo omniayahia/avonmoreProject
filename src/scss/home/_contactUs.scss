@@ -1,0 +1,9 @@
+.contactUs{
+  @extend %inherit-section; 
+}
+@media (max-width:768px)
+{
+  .contactParg{
+   margin-bottom: 40px;
+  }
+}

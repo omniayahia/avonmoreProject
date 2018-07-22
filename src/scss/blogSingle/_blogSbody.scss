@@ -1,0 +1,56 @@
+.blogspage{
+  .bodyblog{
+    @extend %inherit-section;
+    .blogSingle{
+      .card{
+          border-radius: 0px;
+          border: 0px;
+          .card-img-top{
+            border-radius: 0px;
+          }
+          .card-body{
+          h5{
+            font-size: 1rem;
+            font-family: $RalewayBold ;
+          }
+          .card-text{
+          color: $gray-color;
+          font-size: $paragraph;
+          font-family: $LatoRegular;
+        }
+        span{
+          color: $gray8;
+          font-size: $smallPar;
+          font-family: $LatoRegular;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+
+
+
+  // right section
+
+    .rightcol{
+      @extend %inherit-list;
+      @extend %inhiret-rightcol-search;
+      @extend %text-rightcol;
+      @extend %rightcol-news;
+      @extend %tag-inherit;
+
+    }
+
+  }
+
+  .blog-bg{
+    background-image: url("../images/blogSingle/section-bg-11.jpg");
+    @extend %bg-img;
+    height: 340px;
+    .blog-container{
+    @extend %same-style;
+    }
+
+  }
+
+}

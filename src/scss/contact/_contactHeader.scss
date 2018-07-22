@@ -1,0 +1,15 @@
+.contact-bg{
+  background-image: url("../images/contact/section-bg-10.jpg");
+  height: 340px;
+  @extend %bg-img;
+  .contact-container{
+   @extend %same-style;
+  }
+}
+
+
+@media(max-width:1050px){
+  .contact-bg{
+    background-position: 80%;
+  }
+}

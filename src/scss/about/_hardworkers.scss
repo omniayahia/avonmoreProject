@@ -1,0 +1,83 @@
+.hard-workers{
+  span{
+    color: $black-color;
+    display: inline-block;
+    width: 30%;
+    font-size:0.6rem;
+    font-family:$RalewayBold;
+    p{
+      font-size:$paragraph;
+    }
+  }
+  @extend %inherit-section;
+  @for $i from 1 through 3
+   {
+   .img#{$i}{
+     background-image:url('../images/aboutUs/team-#{$i}.jpg');
+     height: 400px;
+     background-position: center;
+    }
+    .img#{$i}:hover{
+      .sliderImg{
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+  .slider2{
+    display: none;
+  }
+  .slider{
+    position: relative;
+    .sliderImg{
+      background-color:rgba(255, 255, 255, 0.8);
+      height: 100%;
+     visibility: hidden;
+     opacity: 0;
+     transition: visibility 0s, opacity 0.5s ease-in-out;
+      .slider-content{
+        height: 100%;
+        width: 70%;
+        margin: 0 auto;
+        p{
+          font-size: $paragraph;
+          font-family: $LatoRegular;
+          color: $black-color;
+        }
+        hr{
+          width:36px;
+          height: 1px;
+          background-color:$gray-color;
+        }
+        a{
+          color: $black-color;
+          font-size: 0.93rem;
+        }
+      }
+    }
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 992px) {
+  .slider {
+  display: none;
+}
+  #secondSlider{
+    display: inline-block;    
+  }
+  .hard-workers{
+    span{
+      width:100%;
+    }
+  }
+}

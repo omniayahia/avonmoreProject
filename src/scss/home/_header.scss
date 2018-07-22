@@ -1,0 +1,33 @@
+.home{
+  header{
+    @extend %inherit-section;
+    background-image: url('../images/index/section-bg-1.jpg');
+    background-position: right;
+    background-size:cover;
+    height: 100vh;
+    position: relative;
+    h1{
+      font-size:70px;
+    }
+  
+  }
+}
+
+@media (max-width:530px) { 
+  .home{
+    header{
+      h1{
+        font-size: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width:990px){
+  .home{
+    header{
+      background-position: left;
+    }
+  }
+}
+
